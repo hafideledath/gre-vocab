@@ -1,0 +1,118 @@
+.card {
+    font-family: 'ABeeZee', sans-serif;
+    background-color: #121212;
+    height: 500px;
+    width: 650px;
+    margin: 10% auto;
+    border-radius: 15px;
+    outline: 10px solid #504336;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 25%;
+    padding: 40px 20px 0;
+    box-sizing: border-box;
+}
+
+header .icon {
+    font-size: 3rem;
+    color: #dcdfc899;
+}
+
+.word {
+    font-family: 'Andada Pro', serif;
+    color: #dedede;
+    word-wrap: normal;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.pronunciation {
+    color: #dedede4d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sound {
+    transition-duration: .2s;
+}
+
+.sound:hover {
+    color: #dededeae
+}
+
+h6 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.illustration {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.dictionary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.definition {
+    color: #dedede;
+    line-height: 30px;
+    width: 300px;
+}
+
+.synonyms {
+    color: #dcdfc899;
+    width: 200px;
+    font-size: 0.9rem;
+}
+
+.example {
+    font-style: italic;
+    color: #dededecc;
+    margin: 40px auto 30px;
+}
+
+.opaque {
+    color: #dedede
+}
+
+.CTAs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.CTAs .icon {
+    font-size: 1.5rem;
+    color: #dcdfc899
+}
+
+.icon {
+    transition-duration: .2s;
+}
+
+.icon:hover {
+    color: #dcdfc8;
+}
